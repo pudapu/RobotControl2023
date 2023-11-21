@@ -843,12 +843,11 @@ void Practice()
 1. source 코드
 2. 출력된 결과물 capture 파일
 
-### 과제 2
-* Desired Pos = [0;0.105;-0.55] & Desired Orientation = Base
-* Result = [0;0;-63.756;127.512;-63.756]
+### 과제 2 (수정필요)
+* Desired Pos = [0.28;0;0.1] & Desired Orientation = Base에 대해 y방향으로 180도 회전
+* Result = [?;?;?;?;?;?]
 
 
-<!--
 
 ## 6. 실습 6 : RB1_500e의 Motion Control
 
@@ -866,11 +865,14 @@ double func_1_cos(double t, double, init, double final, double T)
 ~~~  
 
 
-<!-- ### 과제
+### 과제
 0. 5초동안, 초기자세에서 실습5-2의 자세로 움직이기 in Joint Coordinates
-1. 5초동안, z방향으로 0.2m 이동하기(다리들기) in Cartesian Coordinates
-2. 5초동안 0.2m 다리들기, 5초동안 0.2m 다리내리기 in Cartesian Coordinates
-3. 5초동안 0.2m 다리들기, 5초동안, z축으로 90도 회전하기 in Cartesian Coordinates -->
+1. 5초동안, z방향으로 0.1m 이동하기 in Cartesian Coordinates
+2. 5초동안 0.1m 다리들기, 5초동안 0.1m 다리내리기 in Cartesian Coordinates
+3. 5초동안 0.1m 다리들기, 5초동안, z축으로 90도 회전하기 in Cartesian Coordinates 
+
+<!--
+
 
 
 <!-- ## 7. 실습 7 : Static walking in the air (2-step walking)
